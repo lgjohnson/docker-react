@@ -13,7 +13,7 @@ deploy:
   region: "us-west-2"
   app: "docker-react"
   env: "DockerReact-env"
-  bucket_name: "Amazon S3/elasticbeanstalk-us-west-2-119459060071"
+  bucket_name: "elasticbeanstalk-us-west-2-119459060071"
   bucket_path: "docker-react"
   on:
     branch: master
