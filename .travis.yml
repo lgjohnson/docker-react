@@ -4,4 +4,7 @@ services:
 
 before_install:
   - docker build -t lgjohnson/docker-react -f Dockerfile.dev .
+
+scripts:
+  - docker run lgjohnson/docker-react npm run test -- --coverage
   
